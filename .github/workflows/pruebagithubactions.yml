@@ -8,7 +8,7 @@ jobs:
       - run: echo "El gtrabajo se esta ejecutando en el servidor ${{runner.os}} hospedado en Github"
       - run: echo "El nombre de la rama es:${{github.ref}} y tu repositorio es:${{github.repository}}"
       - name: Verifica el código del repositorio
-      - uses: actions/Checkout@2
+      - uses: actions/Checkout@v2
       - run: echo "El repositorio:${{github.repository}} ha sido colocado en el runner."
       - run: echo "El flujo de trabajo está listo para verificar el código en el runner."
       - name: Listar archivos en el repositorio
