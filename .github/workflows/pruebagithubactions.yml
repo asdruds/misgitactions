@@ -13,5 +13,5 @@ jobs:
       - run: echo "El flujo de trabajo está listo para verificar el código en el runner."
       - name: Listar archivos en el repositorio
         run:
-          ls ${{github.workplace}}
+          ls ${{github.workplace}} 
       - run: echo "El estado del trabajo es:${{ job.status}}"
