@@ -1,4 +1,4 @@
-name: Github Actions Practica #Asdruds
+name: Github Actions Practica
 on: [push]
 jobs:
   Explorando-Github-Actions:
